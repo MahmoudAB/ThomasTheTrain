@@ -1,12 +1,3 @@
-<?php
-session_start();
-if (isset($_GET['log'])) {
-
-    unset($_SESSION['user']);
-    session_destroy();
-}
-
-?>
 <!DOCTYPE html>
 <html>
 <head>
@@ -46,22 +37,19 @@ document.getElementById("time").innerHTML = Date();
 </nav>
 <section>
 
-<center>
-	<h2>Thomas the train</h2></center>
-	<ul>
-		<li>Do you want to to arrive to your destination promptly?</li>
-		<li>Do you want to trake the train in full confort and tranquility?</li>
-		<li>Are you tired of paying too muuch money for train transportation that leaves you disapointed?</li>
-		<li>Dont you wish you had wifi in the train?</li>
-	</ul>
-<center>
-	<h3>Look no further!!</h3>
-		<p>Ride the train with full tranquility and confort with <strong> Thomus the train</strong> Take advantage of the free wifi and tarif promotions offered.</p>
-		<p>You're journey starts now</p>
-		<img src="picture/thomas2.jpg" alt="thomas the train"></img>
-		
-</center>
-  
+<h1>Contact us</h1>
+	  <p>
+	    <h3>Mailing Address:</h3><br/>
+	   	ThomasTheTrain<br/>
+	    1234 Trains<br/>
+	    Montreal, Quebec  y7f2p0<br/>
+	    Canada<br/>
+	   
+	  </p>
+	  <p>
+		<a href="mailto:mahmoudAB93@hotmail.com"><img src="picture/mail.png"></a>
+	  </p>
+  </section>
 
 </section>
 <footer>
